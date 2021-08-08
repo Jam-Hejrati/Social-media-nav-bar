@@ -1,0 +1,18 @@
+@mixin nav-bar-style {
+    padding: $reset;
+    margin: $reset;
+    background-color: $nav-bar-bg-color;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: $nav-bar-width;
+    height: $nav-bar-height;
+    list-style-type: none;
+    border-radius: 12px;
+  }
+  
+  @mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
